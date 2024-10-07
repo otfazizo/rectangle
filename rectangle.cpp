@@ -1,6 +1,6 @@
 /*
 Project name: Rectangle
-Author: M.Yussuf
+Author: Suraw
 Date: 7, October 2024.
 */
 
@@ -34,19 +34,19 @@ void Rectangle::display()
 }
 int main()
 {
-	Rectangle rec1 , rec2;
+	Rectangle rect1 , rect2;
 	
-	rec1.length = 6;
-	rec1.width = 4;
+	rect1.length = 6;
+	rect1.width = 4;
 	
-	rec2.length = 8;
-	rec2.width = 4;
+	rect2.length = 8;
+	rect2.width = 4;
 	
 	cout<<"Rectangle 1:"<<endl;
-	rec1.display();
+	rect1.display();
 	
 	cout<<endl;
 	
 	cout<<"Rectangle 2:"<<endl;
-	rec2.display();
+	rect2.display();
 }
